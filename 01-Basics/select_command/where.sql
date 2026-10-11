@@ -33,16 +33,15 @@ from Customers
 where Score != 0;
 
 
--- Retrive customers with from Germany
+-- Retrive customers from Germany
 select * 
 from Customers
 where Country = 'Germany';
 
 
 -- Retrive customers name and country column who belongs to Germany
-
 select 
-FirstName,
-Country
+	FirstName,
+	Country
 from Customers
 where Country = 'Germany';
