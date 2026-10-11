@@ -6,8 +6,8 @@
 		Syntax
 
 3   Select * 
-1. from tblStudents
-2. where Age > 20
+1.  from tblStudents
+2.  where Age > 20
 
 
 */
@@ -39,3 +39,10 @@ from Customers
 where Country = 'Germany';
 
 
+-- Retrive customers name and country column who belongs to Germany
+
+select 
+FirstName,
+Country
+from Customers
+where Country = 'Germany';
