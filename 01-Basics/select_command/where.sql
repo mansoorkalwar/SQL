@@ -13,17 +13,29 @@
 */
 
 
--- Example: Age higher than 20
+
+
+--			PRACTICE TASK
+
+
+
+
+
+-- Retrive students age higher than 20
 select * 
 from tblStudents
 where Age > 20;
 
 
 -- Retrive customers with a score not equal to zero
-
 select * 
 from Customers
 where Score != 0;
 
+
+-- Retrive customers with from Germany
+select * 
+from Customers
+where Country = 'Germany';
 
 
