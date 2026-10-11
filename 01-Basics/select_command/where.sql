@@ -1,6 +1,6 @@
 -- WHERE = Filters your data based on a condition
 
--- Example: Age higher than 20
+
 
 /*
 		Syntax
@@ -12,6 +12,18 @@
 
 */
 
+
+-- Example: Age higher than 20
 select * 
 from tblStudents
 where Age > 20;
+
+
+-- Retrive customers with a score not equal to zero
+
+select * 
+from Customers
+where Score != 0;
+
+
+
