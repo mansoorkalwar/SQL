@@ -61,7 +61,6 @@ Group By Rule:
 
 			-- GROUP BY TASKS --
 
-
 -- find the total score for each country
 SELECT 
 	Country,
