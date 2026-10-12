@@ -73,9 +73,9 @@ GROUP BY Country;
 
 -- Find total score and total number of customers in each country
 SELECT
-Country,
-SUM(Score) as Total_Score,
-COUNT(CustomerID) as Total_Customers
+	Country,
+	SUM(Score) as Total_Score,
+	COUNT(CustomerID) as Total_Customers
 FROM Customers
 GROUP BY Country;
 
