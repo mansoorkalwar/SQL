@@ -37,3 +37,18 @@ Order by Score Desc;
 Select *
 From Customers
 Order by Score Asc;
+
+
+
+			-- NESTED ORDER BY --
+-- Retrive all the customers and sort the results by the country and then by the highest score
+Select * 
+From Customers
+Order by 
+	Country Asc,
+	Score Desc;
+
+
+
+
+-- IMPORTANT: Column order in ORDER BY is crucial, as sorting is sequential
