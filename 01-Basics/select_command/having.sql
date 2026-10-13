@@ -16,7 +16,7 @@
         Syntax and execution order
 
 
-   4. Select
+   4.  Select
 		Country,
 		SUM(Score)
    1.  From Customers
