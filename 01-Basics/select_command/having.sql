@@ -25,3 +25,11 @@
 
 
 */
+
+
+SELECT 
+	Country,
+	SUM(Score) as total_score
+FROM Customers
+GROUP BY Country
+HAVING SUM(Score) > 900;
