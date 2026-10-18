@@ -80,3 +80,13 @@ GROUP BY Country;
 
 
 
+-- Use all aggregate functions one by one
+select
+	COUNT(*) As total_Customers,
+	SUM(Score) as total_Score,
+	Min(Score) as min_scorem,
+	Max(Score) as max_score,
+	Avg(Score) as avg_score
+from Customers;
+
+select * from Customers;
