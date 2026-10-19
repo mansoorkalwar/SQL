@@ -12,4 +12,3 @@ SELECT
 	FirstName,
 	'New Customers' as status_type
 FROM Customers
-
