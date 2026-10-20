@@ -9,10 +9,6 @@
 	if you compare now create table with a drop table you can see
 	destroying things is way easier than building it
 
-
-
-
-
 	Those are the command CREATE, ALTER, DROP those command we use in order to define the
 	structure of our databases the DDL commands.
 
