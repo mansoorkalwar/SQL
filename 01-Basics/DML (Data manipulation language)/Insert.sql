@@ -158,6 +158,16 @@ FROM tblStudents
 WHERE SUBSTRING(StdRegNo,11,13) > 10
 
 
--- I wrote this where statement because from 1 to 9 customerId was already assigned this code is just for practice
+/*
 
+I wrote this where statement because from 1 to 9 CustomerID was already assigned this code is just for practice
+
+
+    Now you might say but the column names are not matching with column names of target table
+    well the database does not care about that as long as the result of the data is matching
+
+    but you can give column names using AS.
+
+
+*/
 SELECT * FROM Customers;
