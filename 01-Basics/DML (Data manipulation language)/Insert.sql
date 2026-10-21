@@ -27,7 +27,7 @@ New rows are added to the existing table.
 There are two common ways to insert data:
 
 1. Manaully entry: Specify the column names and provide values.
-2. 
+2. Insert data using Select from source table to target table
 
 
 
@@ -110,4 +110,54 @@ If all of these columns are VARCHAR and satisfy the constraints,
 SQL Server may accept the data.
 
 This is why you must make sure that the values are in the correct order.
+
+
+
+
+
+
+
+      NOTE:
+      Columns not included in INSERT become NULL (Unless a default or constraint exists)
+
+
 */
+
+SELECT * FROM Customers;
+
+
+INSERT INTO Customers (CustomerID,FirstName,Country)
+VALUES (9,'Touseef','India')
+
+
+
+
+
+
+/*
+
+Insert data into table using SELECT
+
+From source table to target table
+
+first we write query to retrive data from source table that we want to insert into target table
+
+then we just insert into target table
+
+*/
+
+
+INSERT INTO Customers(CustomerID,FirstName,LastName,Country,Score)
+SELECT 
+SUBSTRING(StdRegNo,11,13),
+StdName,
+Null,
+'Pakistan',
+NULL
+FROM tblStudents
+WHERE SUBSTRING(StdRegNo,11,13) > 10
+
+
+-- I wrote this where statement because from 1 to 9 customerId was already assigned this code is just for practice
+
+SELECT * FROM Customers;
