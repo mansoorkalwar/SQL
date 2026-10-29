@@ -1,0 +1,11 @@
+﻿StaffNO,Name,Surname,Position,Salary
+101,Dr. Shahid Ali,Mahar,Permanent Faculty,140000
+102,Imran Mushtaque,Siddiqui,Permanent Faculty,135000
+103,Dr. Sadaquat,Ruk,Permanent Faculty,145000
+104,Dr. Badaruddin,Chachar,Permanent Faculty,155000
+105,Muhammad Faizan,Mughal,Teaching Assistant,100000
+106,Abdul Wahid,Abdul Wahid,Visiting Faculty,100000
+107,Muhammad Ibraheem,Dayo,Visiting Faculty,50000
+108,Muhammad Mithal,Dayo,Clerk,40000
+109,Abdul Ghaffar,Memon,Attendant,35000
+NULL,NULL,NULL,NULL,NULL

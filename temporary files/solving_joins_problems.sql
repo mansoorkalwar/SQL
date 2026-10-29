@@ -17,6 +17,18 @@ ON o.OrderID = oi.OrderID
 GROUP BY emp.FirstName
 
 
-SELECT  TOP 1 * FROM Employees;
-SELECT  TOP 1 * FROM Orders;
-SELECT  TOP 1 * FROM OrderItems;
+SELECT  TOP 1 * FROM tblGCSALUStaff;
+SELECT  TOP 1 * FROM tblFees;
+SELECT  TOP 1 * FROM tblStudent;
+
+
+
+
+
+
+
+
+
+
+
+

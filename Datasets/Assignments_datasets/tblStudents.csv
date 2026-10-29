@@ -1,0 +1,48 @@
+﻿StdRegNo,StdName,StdSurname,StdDOB,StdAge,Remark
+GC25-BSCS-001,Abdul Jabbar,Mirbahar,01/01/2007,19,Not Paid
+GC25-BSCS-002,Abdul Jabbar,Kolachi,01/01/2006,20,Not Paid
+GC25-BSCS-003,Abdul Jabbar,Abro,01/01/2008,18,Not Paid
+GC25-BSCS-004,Abdul Wahab,Magsi,01/01/2005,21,Paid
+GC25-BSCS-005,Ahmed Ali,Mahar,01/01/2004,22,Not Paid
+GC25-BSCS-006,Ali Azhar,Ruk,01/01/2003,23,Not Paid
+GC25-BSCS-007,Ambar,Ghoto,01/01/2004,22,Not Paid
+GC25-BSCS-008,Aneesa,Soomro,01/01/2005,21,Not Paid
+GC25-BSCS-010,Ayaz Hussain,Mirani,01/01/2006,20,Paid
+GC25-BSCS-011,Babar Ali,Kalwar,01/01/2007,19,Paid
+GC25-BSCS-013,Faiza,Kalwar,01/01/2005,21,Not Paid
+GC25-BSCS-014,Ghazala,Kalwar,01/01/2005,21,Not Paid
+GC25-BSCS-015,Ghulam Akbar,Siyal,01/01/2006,20,Not Paid
+GC25-BSCS-016,Ghulam Hasnain Shah,Syed,01/01/2007,19,Not Paid
+GC25-BSCS-017,Ghulam Murtaza Kalwar,Kalwar,01/01/2004,22,Not Paid
+GC25-BSCS-018,Hafsa,Arain,01/01/2003,23,Not Paid
+GC25-BSCS-021,Imtaiz Ali,Sheikh,01/01/2005,21,Paid
+GC25-BSCS-022,Iqra,Kalwar,01/01/2007,19,Paid
+GC25-BSCS-025,Irfan Ali,Ruk,01/01/2007,19,Paid
+GC25-BSCS-027,Israr Ali Khan,Ghoto,01/01/2006,20,Paid
+GC25-BSCS-029,Junaid,Soomro,01/01/2006,20,Not Paid
+GC25-BSCS-030,Kaleemullah,Kalwar,01/01/2006,20,Paid
+GC25-BSCS-031,Karan,Kumar,01/01/2007,19,Paid
+GC25-BSCS-032,Manesh,Kumar,01/01/2007,19,Not Paid
+GC25-BSCS-033,Mansoor Ahmed,Kalwar,01/01/2005,21,Paid
+GC25-BSCS-034,Magfiya,Kalwar,01/01/2004,22,Not Paid
+GC25-BSCS-035,Mazhar Ali,Kobhar,01/01/2007,19,Paid
+GC25-BSCS-036,Mehdi Hassan,Kalwar,01/01/2006,20,Not Paid
+GC25-BSCS-037,Mohammad Fareed,Mahar,01/01/2006,20,Paid
+GC25-BSCS-038,Muhammad Abbass,Soomro,01/01/2005,21,Not Paid
+GC25-BSCS-040,Muhammad Tousif,Kalwar,01/01/2007,19,Paid
+GC25-BSCS-041,Muhammad Zubair,Jutt,01/01/2006,20,Not Paid
+GC25-BSCS-042,Ruqaiya,Kalwar,01/01/2006,20,Not Paid
+GC25-BSCS-043,Safia,Rajpoot,01/01/2007,19,Paid
+GC25-BSCS-044,Safiullah,Kalwar,01/01/2006,20,Not Paid
+GC25-BSCS-045,Sajid Hussain,Shaikh,01/01/2005,21,Not Paid
+GC25-BSCS-046,Sajjad Ali,Bhayo,01/01/2004,22,Not Paid
+GC25-BSCS-047,Saleem,Sodho,01/01/2007,19,Not Paid
+GC25-BSCS-049,Sara Ayaz,Rajpoot,01/01/2006,20,Not Paid
+GC25-BSCS-050,Shahid Ali,Khokhar,01/01/2006,20,Not Paid
+GC25-BSCS-052,Sharjeel Ahmed,Mahar,01/01/2007,19,Not Paid
+GC25-BSCS-053,Shumaila,Bhutto,01/01/2005,21,Not Paid
+GC25-BSCS-054,Sijawal Ali,Mirani,01/01/2003,23,Not Paid
+GC25-BSCS-055,Tahir Ali,Mahar,01/01/2004,22,Not Paid
+GC25-BSCS-056,Urooj Latif,Kalwar,01/01/2007,19,Not Paid
+GC25-BSCS-058,Zohaib Ali Shah Bukhari,Syed,01/01/2006,20,Not Paid
+NULL,NULL,NULL,NULL,NULL,NULL
