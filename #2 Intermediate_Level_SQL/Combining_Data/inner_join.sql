@@ -37,3 +37,8 @@
 
 -- Get all customers along with their orders,
 -- but only those
+
+
+SELECT * FROM Customers AS c
+INNER JOIN Orders AS o
+ON  C.CustomerID = o.CustomerID
