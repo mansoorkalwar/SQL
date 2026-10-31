@@ -33,3 +33,9 @@ WHERE FirstName LIKE '%r%';
 -- Find all customers whose first name has 'r' in the third position 
 SELECT * FROM Customers
 WHERE FirstName LIKE '__r%'
+
+
+
+-- Find all customers whose first name has 'm' in the third position 
+SELECT * FROM Customers
+WHERE FirstName LIKE '__m%'
