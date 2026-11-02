@@ -38,3 +38,14 @@ where CategoryID in (
 	Group BY CategoryID
 	Having Count(*) > 2
 )
+
+
+-- Display the names and prices of products that belong to the Electronics category
+
+
+select ProductName,Price 
+From Products 
+where CategoryID in (
+	select CategoryID from Categories
+	where CategoryName = 'Electronics' 
+)
