@@ -42,3 +42,8 @@
 SELECT * FROM Customers AS c
 INNER JOIN Orders AS o
 ON  C.CustomerID = o.CustomerID
+
+
+-- That's how we can print the names of tables present in database
+select name
+from sys.tables;
