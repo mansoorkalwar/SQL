@@ -49,3 +49,88 @@ where CategoryID in (
 	select CategoryID from Categories
 	where CategoryName = 'Electronics' 
 )
+
+
+-- Display the product names and prices of products that belong to either the Electronics or Furniture category
+
+select ProductName,Price
+from Products
+where CategoryID in (
+	select CategoryID 
+	from Categories 
+	where CategoryName in ('Electronics','Furniture')
+)
+
+
+
+-- Display the names of categories that have at least one product with a price greater than 50,000
+
+select CategoryName
+from Categories
+where CategoryId In (
+	select CategoryID 
+	from Products
+	where Price > 50000
+)
+
+
+-- Display the product names and prices of products whose price is 
+-- greater than the price of every product in the Accessories category
+
+
+Select ProductName,Price
+from Products
+where Price > All (
+	select Price 
+	from Products 
+	where (
+	select CategoryID 
+	from Categories 
+	where CategoryName = 'Accessories')
+)
+
+
+
+select name
+from sys.tables
+
+
+select avg(Salary) as Avg_Salary
+from tblGCSALUStaff
+where Position in (
+	select 
+		Position
+	from tblGCSALUStaff
+	group by Position
+	Having Count(*) > 2
+)
+
+
+
+select count(PaidAmount) as feeCount
+from tblFees
+
+-- Display the product names and prices of products
+-- whose price is less than every product in the Electronics
+-- category
+
+
+select ProductName,Price
+from Products
+	where Price <  All (
+	select Price 
+	from Products
+	where CategoryID in (
+			select CategoryID 
+			from Categories
+			where CategoryName = 'Electronics'
+		)
+)
+
+
+
+
+select top 1 * from Products
+Select top 1 * from Categories
+
+
